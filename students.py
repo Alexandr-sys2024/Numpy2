@@ -32,20 +32,20 @@ print(f"Медианный оценка - {df['Chemistry'].median()}")
 df.boxplot(column='Math')
 plt.show()
 
-stdMath = df['Math'].std()
-print(f"Стандартное отклонение Math - {stdMath}")
+#stdMath = df['Math'].std()
+#print(f"Стандартное отклонение Math - {stdMath}")
 
-stdPhysics = df['Physics'].std()
-print(f"Стандартное отклонение Physics - {stdPhysics}")
+#stdPhysics = df['Physics'].std()
+#print(f"Стандартное отклонение Physics - {stdPhysics}")
 
-stdBiology = df['Biology'].std()
-print(f"Стандартное отклонение Biology - {stdBiology}")
+#stdBiology = df['Biology'].std()
+#print(f"Стандартное отклонение Biology - {stdBiology}")
 
-stdAstronomy = df['Astronomy'].std()
-print(f"Стандартное отклонение Astronomy - {stdAstronomy}")
+#stdAstronomy = df['Astronomy'].std()
+#print(f"Стандартное отклонение Astronomy - {stdAstronomy}")
 
-stdChemistry = df['Chemistry'].std()
-print(f"Стандартное отклонение Chemistry - {stdChemistry}")
+#stdChemistry = df['Chemistry'].std()
+#print(f"Стандартное отклонение Chemistry - {stdChemistry}")
 
 
 
